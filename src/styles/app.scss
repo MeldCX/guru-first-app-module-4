@@ -1,0 +1,16 @@
+@import "~glow/base";
+
+// Import the Sass helpers from the glow framework
+@import "~glow/helpers/import";
+
+
+table {
+    td, th {
+        &:first-child { padding-left: 2rem; }
+        &:last-child { padding-right: 2rem; }
+    }
+    .row-new td {
+        line-height: 4rem;
+        padding-top: 1rem;
+    }
+}

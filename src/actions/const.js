@@ -1,0 +1,3 @@
+export const OPTIONS_SET = 'OPTIONS_SET';
+export const OPTIONS_UPDATE = 'OPTIONS_UPDATE';
+export const OPTIONS_REMOVE = 'OPTIONS_REMOVE';
